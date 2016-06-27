@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--app:cardBackgroundColor="#81c784"-->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/lib/com.example.username.myapplication"
+        android:id="@+id/main_normal_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="100dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/date_of_post_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date/Time"
+                />
+
+            <TextView
+                android:id = "@+id/text_inside_card"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_of_post_text"
+                android:text="--status goes here--"/>
+            <TextView
+                android:id="@+id/poster_username_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/username_text"
+                android:layout_alignTop="@+id/poster_picture"
+                android:layout_toLeftOf="@+id/poster_picture"
+                android:layout_toStartOf="@+id/poster_picture"
+                android:layout_marginRight="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/poster_picture"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/nav_drawer_background_design"
+                android:layout_below="@+id/text_inside_card"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

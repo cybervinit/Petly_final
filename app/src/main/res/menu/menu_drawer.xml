@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_menu">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_group">
+
+        <item
+            android:id="@+id/pet_management_activity_item"
+            android:title="@string/title_1" />
+
+        <item
+            android:id="@+id/map_activity_item"
+            android:title="@string/title_2" />
+
+        <item
+            android:id="@+id/friends_activity_item"
+            android:title="@string/title_3" />
+
+        <item
+            android:id="@+id/liscense_activity_item"
+            android:title="@string/title_4" />
+        <item
+            android:id="@+id/email_us_activity_item"
+            android:title="@string/title_6" />
+        <item
+            android:id="@+id/logout_item"
+            android:title="@string/title_5" />
+    </group>
+</menu>
