@@ -5,6 +5,8 @@
 ## Screenshots
 
 ![Petly's first screen](https://github.com/cybervinit/Petly_final/blob/master/Screens/Petly_screen1.gif)
+![Petly's first screen](https://github.com/cybervinit/Petly_final/blob/master/Screens/Petly_screen2.gif)
+![Petly's first screen](https://github.com/cybervinit/Petly_final/blob/master/Screens/Petly_screen3.gif)
 
 
 
