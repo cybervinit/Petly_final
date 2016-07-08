@@ -1,6 +1,9 @@
 # Petly
 
-An application that connects pet owners of Toronto.
+An application that connects pet owners of Toronto.  
+
+###### By Vinit Soni , Dharmik Shah, Chitransh Vishway, Sunny Patel
+
 
 ## Screenshots
 
